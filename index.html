@@ -57,10 +57,32 @@
             <div class="dropdown-menus">
 
                 <button class="button button-products">Productos(53) <img src='./resources/images/arrow-down.png'
-                        alt='arrow-down'></button>
+                        alt='arrow-down' class="products-arrow"></button>
 
                 <button class='button button-sort'>Ordenar por <img src='./resources/images/arrow-down.png'
-                        alt='arrow-down'></button>
+                        alt='arrow-down' class="filter-arrow"></button>
+            </div>
+
+            <div class='dropdown-cont'>
+
+                <div class="dropdown-products">
+                    <form>
+                        <label><input type="radio" value="Product1"> Product 1</label><br>
+                        <label><input type="radio" value="Product2"> Product 2</label><br>
+                        <label><input type="radio" value="Product3" checked> Product 3</label><br>
+                        <label><input type="radio" value="Product4"> Product 4</label><br>
+                    </form>
+                </div>
+
+                <div class="dropdown-filter">
+                    <form>
+                        <label><input type="checkbox" value="filter1" checked> Filter 1</label><br>
+                        <label><input type="checkbox" value="filter1"> Filter 2</label><br>
+                        <label><input type="checkbox" value="filter1"> Filter 3</label><br>
+                        <label><input type="checkbox" value="filter1"> Filter 4</label><br>
+                    </form>
+                </div>
+
             </div>
 
             <div class='container search-cont'>
@@ -139,5 +161,7 @@
         </section>
     </main>
 </body>
+
+<script src="./resources/js/script.js"></script>
 
 </html>
